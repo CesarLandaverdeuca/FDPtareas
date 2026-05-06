@@ -27,7 +27,7 @@ int main()
     cin >> opcion;
 
     // Verificar si la opción seleccionada es válida
-    if (opcion < 1 || opcion > 6)
+    if (opcion < 1 || opcion > 7)
     {
         cout << "Opción no válida. Por favor, elija una opción del 1 al 5." << endl;
         return 1; // Salida temprana del programa si la opción no es válida
@@ -73,7 +73,7 @@ int main()
      case 7: //Modulo
     
      cout << "Cerrando Programa"<< endl;
-     return 1;
+     return 0;
         break;
     
         break;
