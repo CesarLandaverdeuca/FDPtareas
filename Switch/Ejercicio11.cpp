@@ -70,6 +70,11 @@ int main()
     resultado =fmod(num1,num2);
       cout << "El resultado de la Modulo es: " << resultado << endl;
         break;
+     case 7: //Modulo
+    
+     cout << "Cerrando Programa"<< endl;
+     return 1;
+        break;
     
         break;
     default:
