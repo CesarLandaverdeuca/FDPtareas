@@ -9,11 +9,20 @@ using namespace std;
 int main (){
 int numero=0 , contador =0, suma=0;
 
-do
-{
-    
-} while (contador==0);
+cout<<"Adivina el numero"<<endl;
+cin>>contador;
 
-cout<<"saliste del bucle"<<endl;
+while (contador != numero)
+{
+  suma= contador + suma;
+
+ cin>>contador; 
+   
+}
+    cout << "¡Felicidades! Has adivinado el número secreto 0:"<< endl;
+    cout << "La SUMA DE SU SUS INTENTOS ES : "<<suma<< endl;
+
+
+return 0;
 
 }
